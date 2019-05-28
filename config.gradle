@@ -27,5 +27,6 @@ ext {
             logging_interceptor : 'com.squareup.okhttp3:logging-interceptor:3.12.0',
             rxlifecycle_android : 'com.trello.rxlifecycle2:rxlifecycle-android:2.1.0',
             rxlifecycle_components : 'com.trello.rxlifecycle2:rxlifecycle-components:2.1.0',
+            fast_json : 'com.alibaba:fastjson:1.2.58'
     ]
 }
