@@ -26,6 +26,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    compileOnly rootProject.ext.deps.fast_json
-    compileOnly rootProject.ext.deps.support_annotations
+    implementation rootProject.ext.deps.fast_json
+    implementation rootProject.ext.deps.support_annotations
 }
