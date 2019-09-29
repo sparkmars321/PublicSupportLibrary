@@ -28,4 +28,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation rootProject.ext.deps.fast_json
     implementation rootProject.ext.deps.support_annotations
+    implementation rootProject.ext.deps.support_v4
+    implementation rootProject.ext.deps.support_appcompat_v7
 }
