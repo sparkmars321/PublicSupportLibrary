@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OvalTextView">
+        <attr name="oval_leftAndRightPadding" format="dimension" />
+        <attr name="oval_topAndBottomPadding" format="dimension" />
+        <attr name="oval_background_color" format="color" />
+        <attr name="oval_text_color" format="color" />
+        <attr name="oval_text_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ResizableView">
+        <attr name="resize_ratio" format="float" />
+        <attr name="resize_base">
+            <flag name="width" value="0" />
+            <flag name="height" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SlantedTextView">
+        <attr name="slantedTextSize" format="dimension" />
+        <attr name="slantedBackgroundColor" format="color" />
+        <attr name="slantedText" format="string" />
+        <attr name="slantedTextColor" format="color" />
+        <attr name="slantedLength" format="dimension" />
+        <attr name="slantedMode" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="left_bottom" value="2" />
+            <enum name="right_bottom" value="3" />
+            <enum name="left_triangle" value="4" />
+            <enum name="right_triangle" value="5" />
+            <enum name="left_bottom_triangle" value="6" />
+            <enum name="right_bottom_triangle" value="7" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="AutoRotateTextView">
+        <attr name="text_size" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="gravity" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorDivideFrameLayout">
+        <attr name="color_attr" format="reference" />
+        <attr name="fraction_attr" format="reference" />
+    </declare-styleable>
+</resources>
